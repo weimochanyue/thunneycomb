@@ -11,6 +11,7 @@
 	test
 </body>
 </html>
+<script type="text/javascript">
 $.ajax({
 	type : "post",
 	url : "https://www.douyu.com/member/cp/modify_username",
@@ -25,3 +26,4 @@ $.ajax({
 		alert('fail');
 	}
 });
+</script>
